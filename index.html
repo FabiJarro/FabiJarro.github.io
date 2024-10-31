@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Joguinhoo</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #eef2f3;
+                color: #333;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                padding: 20px;
+            }
+            .container {        
+                width: 1000px;
+                height: 800px;
+                background-color: #fff;
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                overflow-y: auto;
+            }
+            h1 {
+                color: #00a336d3;
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+            p {
+                color: #1d1d1d;
+                font-size: 1.1em;
+                line-height: 1.6;
+            }
+            .botao_download {
+                display: inline-block;
+                margin: 20px 0;
+                padding: 12px 25px;
+                font-size: 1.1em;
+                color: #fff;
+                background-color: #022083;
+                text-decoration: none;
+                border-radius: 8px;
+                transition: background-color 0.3s ease;
+            }
+            .download-btn:hover {
+                background-color: #218838;
+            }
+            .instructions{
+                margin-top: 40px;
+                text-align: left;
+            }
+            .instructions h2{
+                color: #161616;
+                font-size: 20px;
+                margin-bottom: 10px;
+                border-bottom: 2px solid #013d70;
+                padding-bottom: 5px;
+                width: fit-content;
+            }
+
+            .gif1{
+            position: absolute;
+            top: 480px;
+            right: 10px; 
+            left: 1100px;
+            height: 200px;
+            width: 260px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .gif2{
+            position: absolute;
+            top: 720px;
+            right: 10px; 
+            left: 1100px;
+            height: 200px;
+            width: 260px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .sobre{
+                margin-top: 40px;
+                text-align: left;
+
+
+            }
+            .sobre h2{
+                color: #161616;
+                font-size: 20px;
+                margin-bottom: 10px;
+                border-bottom: 2px solid #013d70;
+                padding-bottom: 5px;
+                width: fit-content;
+            }
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Bem-vindo ao Quebra-matemática do IFSP!!</h1>
+            <p>Clique no botão abaixo para começar a jogar</p>
+
+            <!-- Botão pra jogar -->
+            <a href="https://trinket.io/pygame/46fab6d3b7cc?outputOnly=true" class="botao_download" download>Jogar</a>
+            
+
+            <!-- instruções do joguinho -->
+            <div class="sobre">
+                <p><h2>Sobre o jogo</h2></p>
+                <p>"Adivinhe a Imagem Matemática" desafia os jogadores a resolver equações para revelar partes de uma imagem
+                    oculta do IFSP. Com um limite de tentativas, sua missão é adivinhar a imagem completa. Teste suas habilidades
+                    matemáticas e divirta-se!</p>
+            </div>
+            
+            <div class="instructions">
+                <h2>Instruções do Jogo</h2>
+                <p><b>1.</b> Escolha um dos quadrados para resolver uma conta matemática </p>
+                <p><b>2.</b> Digite a resposta e precione "Enter"</p>
+                <img src="https://s4.ezgif.com/tmp/ezgif-4-72cc4cd546.gif" class="gif1">
+                <p><b>3.</b> Respostas corretas revelam partes da imagem. Se errar duas vezes em </p> <p> bloco, ele será bloqueado.</p>
+                <p><b>4.</b> Se achar que se sabe a parte da escola que a imagem pertence </p>
+                <img src="https://s4.ezgif.com/tmp/ezgif-4-100e8daf37.gif" class="gif2">
+                <p>digite sua resposta final</p>
+                <p><b>5.</b> Em caso de erro, vc terá mais uma chance para tentar acertar</p>
+            </div>
+
+    
+        </div>
+
+    </body>
+</html>
